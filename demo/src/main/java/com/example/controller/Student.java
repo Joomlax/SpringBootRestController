@@ -1,4 +1,4 @@
-package com.example.deneme;
+package com.example.controller;
 
 import java.time.LocalDate;
 
