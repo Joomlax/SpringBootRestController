@@ -6,7 +6,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 
 @SpringBootApplication
-@ComponentScan({"com.example.controller","com.example.service"})
+@ComponentScan({"com.example.controller","com.example.service","com.example.data"})
 
 public class DemoApplication {
 
