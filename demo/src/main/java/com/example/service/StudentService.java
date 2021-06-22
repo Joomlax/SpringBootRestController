@@ -1,15 +1,12 @@
 package com.example.service;
 
-import java.time.LocalDate;
-import java.time.Month;
-import java.util.ArrayList;
 import java.util.List;
 
 import com.example.data.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.demo.Student;
+import com.example.entity.Student;
 
 @Service
 public class StudentService {

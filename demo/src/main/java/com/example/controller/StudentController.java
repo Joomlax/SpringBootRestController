@@ -1,7 +1,7 @@
 package com.example.controller;
-import java.util.ArrayList;
+import java.util.List;
 
-import com.example.demo.Student;
+import com.example.entity.Student;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -20,7 +20,7 @@ public class StudentController {
 		this.stuServ = stuServ;
 	}
 	@GetMapping
-	public ArrayList<Student> getStudents() {
+	public List<Student> getStudents() {
 		return stuServ.getStudents();
 	}
 }
