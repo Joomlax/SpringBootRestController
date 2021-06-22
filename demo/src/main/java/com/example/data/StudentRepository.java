@@ -7,5 +7,4 @@ import org.springframework.stereotype.Repository;
                                                         //Type //Id
 @Repository
 public interface StudentRepository extends JpaRepository<Student, Long> {
-
 }
