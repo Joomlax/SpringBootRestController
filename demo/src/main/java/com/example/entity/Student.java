@@ -19,6 +19,7 @@ public class Student {
 	)
 	private Long id;
 	private String name;
+	@Transient
 	private int age;
 	private LocalDate dob;
 	private String email;
